@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="icon" href="img/rocket.png" type="png image" sizes="16x16">
+<style>
+	body {
+    background-image: url("img/space.png");
+}
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Chrome */
+    column-count: 2;
+}
+body {
+  margin: 0;
+}
+
+/* Stile Header */
+.header {
+    padding: 0px;
+    text-align: center;
+}
+
+/* Stile Navigation Bar */
+.topnav {
+    overflow: hidden;
+}
+
+/* Stile dei .topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 24px;
+}
+
+/* Switch colore quando punto */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+</style>
+</head>
+<title>Astronomy - Satelliti Naturali</title>
+<!-- required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" contenet="width=device-width, initial-scale=1, shrink-to-ft=no">
+
+<!-- bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+<head>
+	<a class="logo" href="https://www.nasa.gov/">
+	<img src="img/NASALOGO.png" alt="nasa" width="80" height="67" hspace="22">
+	<a class="logo" href="http://www.spacex.com/">
+	<img src="img/SpaceXLOGO.png" alt="spacex" width="198" height="30" align="right" hspace="22">
+</head>
+	
+
+<div class="topnav">
+	<a href="index.html">HOME PAGE</a>
+	<a href="Sistema Solare.html">SISTEMA SOLARE</a>
+	<a href="Le Missioni Spaziali.html">LA CORSA ALLO SPAZIO</a>
+	<a href="NasaSpaceX.html">LE AGENZIE SPAZIALI</a>
+	<a href="https://www.youtube.com/watch?v=4993sBLAzGA">LA SPAZIONE STAZIALE ISS</a>
+</div>
+<div>
+	<h1>I Satelliti</h1>
+		<h2>Satelliti Naturali: Cosa sono?</h2>
+			<p>Si dice satellite naturale, o talvolta più impropriamente luna con l'iniziale in minuscolo, un qualunque corpo celeste che orbita attorno a un corpo diverso da una stella, come ad esempio un pianeta, un pianeta nano o un asteroide. Nel sistema solare si conoscono oltre centocinquanta satelliti naturali: si presume che ne esistano anche attorno ai pianeti di altre stelle.
+			Tipicamente i giganti gassosi possiedono estesi sistemi di satelliti, mentre i pianeti terrestri ne hanno pochi: nel sistema solare Mercurio e Venere non ne sono dotati, la Terra ne possiede uno molto grande rapportato alle proprie dimensioni (Luna) mentre Marte ne possiede due piccoli (Fobos e Deimos).
+			Fra i pianeti nani i satelliti sembrano essere una caratteristica predominante degli oggetti transnettuniani, come Plutone (cinque, di cui uno massiccio), Haumea (due satelliti) ed Eris (un satellite).
+			Per estensione si indica col termine di satellite naturale qualunque oggetto di origine non artificiale che orbiti intorno a un oggetto di massa più grande, ad esempio una galassia nana che orbita attorno a una galassia di dimensioni maggiori si chiama galassia satellite.</p>
+			
+			
+		<h2>La Luna: Il nostro Satellite Naturale</h2>
+			<p>La Luna è un satellite naturale, l'unico della Terra. Il suo nome proprio viene talvolta utilizzato, per antonomasia e con l'iniziale minuscola («una luna»), come sinonimo di satellite anche per i corpi celesti che orbitano attorno ad altri pianeti.
+			<img src="img/luna.png" width="180" height="150" style="float:right">
+			Orbita a una distanza media di circa 384 400 km dalla Terra, sufficientemente vicina da essere osservabile a occhio nudo, il che rende possibile distinguerne alcuni rilievi sulla superficie. Essendo in rotazione sincrona rivolge sempre la stessa faccia verso la Terra e il suo lato nascosto è rimasto sconosciuto fino al periodo delle esplorazioni spaziali.
+
+			Durante il suo moto orbitale, il diverso aspetto causato dall'orientazione rispetto al Sole genera delle fasi chiaramente visibili e che hanno influenzato il comportamento dell'uomo fin dall'antichità. Impersonata dai greci nella dea Selene, fu da tempo remoto considerata influente sui raccolti, le carestie e la fertilità. Condiziona la vita sulla Terra di molte specie viventi, regolandone il ciclo riproduttivo e i periodi di caccia; agisce sulle maree e la stabilità dell'asse di rotazione terrestre.
+
+			Si pensa che la Luna si sia formata 4,5 miliardi di anni fa, non molto tempo dopo la nascita della Terra. Esistono diverse teorie riguardo alla sua formazione; la più accreditata è che si sia formata dall'aggregazione dei detriti rimasti in orbita dopo la collisione tra la Terra e un oggetto delle dimensioni di Marte chiamato Theia.
+
+			Il suo simbolo astronomico ☾ è una rappresentazione stilizzata della sua fase calante.
+
+			La faccia visibile della Luna è caratterizzata dalla presenza di circa 300 000 crateri da impatto (contando quelli con un diametro di almeno 1 km). Il cratere lunare più grande è il bacino Polo Sud-Aitken, che ha un diametro di circa 2 500 km, è profondo 13 km e occupa la parte meridionale della faccia nascosta.
+		
+	
+		<h2>I Satelliti Artificiali</h2>
+			<p>Con il termine satellite artificiale si possono intendere tutti gli oggetti orbitanti intorno ad un corpo celeste che sono stati posti volutamente nell'orbita desiderata con mezzi tecnologici (ad esempio razzi vettori) e con varie finalità a supporto di necessità umane. L'insieme di più satelliti artificiali adibiti ad uno stesso scopo forma una costellazione o flotta di satelliti artificiali.</p>
+			
+			<p>I satelliti artificiali si possono suddividere in:</p>
+<code>
+		<?php
+			$lista = [
+					'<p><strong>satelliti scientifici</strong>, destinati alla ricerca pura nel campo astronomico o della geofisica, es. Telescopio Spaziale Hubble o Lageos e <strong>satelliti applicativi</strong>, destinati a scopi militari o ad usi commerciali civili.</p>.'
+				];
+				foreach ($lista as $key => $value) {
+					print "<li>$value</li>";
+				}
+		?>
+			<p>I satelliti applicativi si possono ulteriormente suddividere in:</p>
+		<?php
+		$lista = [
+				'<p><strong>satelliti per telecomunicazioni</strong>, apparecchiature costruite per le telecomunicazioni, es. i Satelliti COSPAS-SARSAT; spesso sono posizionati in orbitw geostazionariw intorno alla Terra e in numero tale da formare una rete satellitare;</p>',
+				'<p><strong>satelliti meteorologici</strong>, posizionati sia in orbita geostazionaria (es. METEOSAT) sia in orbita polare (es. satelliti NOAA);</p>',
+				'<p><strong>satelliti per telerilevamento</strong>, costruiti per il telerilevamento, la cartografia e osservazione sistematica della superficie terrestre (es. satelliti Landsat, QuickBird, Envisat, IKONOS o RapidEye);</p>',
+				'<p><strong>satelliti per la navigazione</strong>, come quelli della rete GPS (Global positioning system);</p>',
+				'<p><strong>satelliti militari sia a scopo offensivo che difensivo, es. la rete di satelliti di monitoraggio nucleare Vela o lo 			statunitense Geosat;</p>',
+				'<p><strong>stazioni orbitanti</strong>, es. Stazione Spaziale Internazionale, Skylab, Mir;</p>',
+				'<p><strong>sonde spaziali in modo improprio</strong>, perché in genere le sonde non orbitano attorno ad un altro corpo.</p>',
+			];
+				
+				foreach ($lista as $key => $value) {
+					print "<li>$value</li>";
+				}
+			?>	
+			<p>Inoltre sono caratterizzati in base alle orbite che percorrono. Le orbite principali sono:</p>
+		<?php
+		$lista = [
+				'<p><strong>orbita polare,</strong></p>',
+				'<p><strong>orbita equatoriale,</strong></p>',
+				'<p><strong>orbita geostazionaria,</strong></p>',
+				'<p><strong>orbita terrestre bassa,</strong></p>',
+				'<p><strong>orbita terrestre media.</strong></p>',
+				];
+				
+				foreach ($lista as $key => $value) {
+					print "<li>$value</li>";
+				}
+		?>
+</code>
+</div>
+<hr>
+	<p align="center">© Copyright "Astronomy", 2018</p>
+</html>		
